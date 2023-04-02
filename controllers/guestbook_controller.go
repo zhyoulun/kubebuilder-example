@@ -18,13 +18,12 @@ package controllers
 
 import (
 	"context"
+	examplev1 "github.com/zhyoulun/kubebuilder-example/api/example/v1"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
-
-	examplev1 "github.com/zhyoulun/kubebuilder-example/api/v1"
 )
 
 // GuestbookReconciler reconciles a Guestbook object

@@ -17,6 +17,7 @@ limitations under the License.
 package controllers
 
 import (
+	examplev1 "github.com/zhyoulun/kubebuilder-example/api/example/v1"
 	"path/filepath"
 	"testing"
 
@@ -29,8 +30,6 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/envtest"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
-
-	examplev1 "github.com/zhyoulun/kubebuilder-example/api/v1"
 	//+kubebuilder:scaffold:imports
 )
 
