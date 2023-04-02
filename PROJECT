@@ -7,4 +7,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: kubebuilder-example
 repo: github.com/zhyoulun/kubebuilder-example
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: my.domain
+  group: example
+  kind: Guestbook
+  path: github.com/zhyoulun/kubebuilder-example/api/v1
+  version: v1
 version: "3"
