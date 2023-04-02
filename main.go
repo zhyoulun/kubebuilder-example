@@ -18,6 +18,7 @@ package main
 
 import (
 	"flag"
+	examplev1 "github.com/zhyoulun/kubebuilder-example/api/example/v1"
 	"os"
 
 	// Import all Kubernetes client auth plugins (e.g. Azure, GCP, OIDC, etc.)
@@ -31,7 +32,6 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	examplev1 "github.com/zhyoulun/kubebuilder-example/api/v1"
 	"github.com/zhyoulun/kubebuilder-example/controllers"
 	//+kubebuilder:scaffold:imports
 )
